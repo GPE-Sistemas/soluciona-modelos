@@ -7,6 +7,15 @@ export interface IUsuario {
   fechaCreacion: string;
   username: string;
   hash?: string;
-  roles: IRol[];
   datosPersonales?: IDatosPersonales;
+  superadmin?: boolean;
+  roles: {
+    idsEstablecimientos?: string[];
+    idsLotes?: string[];
+    idRol: string;
+    // Populate
+    establecimientos?: any[]; // IEstablecimiento[];
+    lotes?: any[]; // ILote[];
+    rol?: IRol;
+  }[];
 }

@@ -1,4 +1,3 @@
-import { IPermiso } from "../permiso";
 import { IDatosPersonales } from "./datosPersonales";
 
 export interface IUpdateUsuario {
@@ -6,6 +5,5 @@ export interface IUpdateUsuario {
   username?: string;
   password?: string;
   hash?: string;
-  permisos?: IPermiso[];
   datosPersonales?: IDatosPersonales;
 }
