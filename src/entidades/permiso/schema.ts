@@ -1,5 +1,15 @@
 export type CaslAction = "manage" | "create" | "read" | "update" | "delete";
-export type CaslSubject = "all" | "Usuario" | "Perfil" | "Rol" | "Permiso";
+export type CaslSubject =
+  | "all"
+  | "Usuario"
+  | "Perfil"
+  | "Rol"
+  | "Permiso"
+  | "RolUsuario"
+  | "Municipio"
+  | "Productor"
+  | "Establecimiento"
+  | "Lote";
 
 export interface IPermiso {
   _id?: string;
