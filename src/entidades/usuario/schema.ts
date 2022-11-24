@@ -1,6 +1,8 @@
 import { IRol } from "../rol";
 import { IDatosPersonales } from "./datosPersonales";
 
+export type INivel = "Municipio" | "Productor" | "Establecimiento" | "Lote";
+
 export interface IUsuario {
   _id?: string;
   activo?: boolean;
@@ -10,12 +12,17 @@ export interface IUsuario {
   datosPersonales?: IDatosPersonales;
   superadmin?: boolean;
   roles?: {
-    idsEstablecimientos?: string[];
-    idsLotes?: string[];
+    nivel?: INivel;
+    idMunicipio?: string;
+    idProductor?: string;
+    idEstablecimiento?: string;
+    idLote?: string;
     idRol?: string;
     // Populate
-    establecimientos?: any[]; // IEstablecimiento[];
-    lotes?: any[]; // ILote[];
+    municipio?: any; // IMunicipio;
+    productor?: any; // IProductor;
+    establecimiento?: any; // IEstablecimiento;
+    lote?: any; // ILote;
     rol?: IRol;
   }[];
 }
