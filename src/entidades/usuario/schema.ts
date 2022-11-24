@@ -5,6 +5,7 @@ export interface IUsuario {
   activo?: boolean;
   fechaCreacion?: string;
   username?: string;
+  email?: string;
   hash?: string;
   datosPersonales?: IDatosPersonales;
   superadmin?: boolean;

@@ -3,7 +3,7 @@ import { IUsuario } from "../usuario";
 import { INivel } from "./niveles";
 
 export interface IRolUsuario {
-  idUsuario: string;
+  email: string;
   nivel?: INivel;
   idMunicipio?: string;
   idProductor?: string;

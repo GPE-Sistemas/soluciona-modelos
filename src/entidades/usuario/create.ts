@@ -1,7 +1,8 @@
 import { IDatosPersonales } from "./datosPersonales";
 
 export interface ICreateUsuario {
-  username: string;
+  email?: string;
+  username?: string;
   password?: string;
   hash?: string;
   datosPersonales?: IDatosPersonales;
