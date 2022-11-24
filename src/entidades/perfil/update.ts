@@ -1,1 +1,3 @@
-export interface IUpdatePerfil {}
+export interface IUpdatePerfil {
+  [key: string]: any;
+}

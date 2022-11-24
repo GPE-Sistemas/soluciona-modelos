@@ -1,1 +1,3 @@
-export interface ICreatePermiso {}
+export interface ICreatePermiso {
+  [key: string]: any;
+}

@@ -1,1 +1,3 @@
-export interface IUpdateRol {}
+export interface IUpdateRol {
+  [key: string]: any;
+}

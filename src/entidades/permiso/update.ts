@@ -1,1 +1,3 @@
-export interface IUpdatePermiso {}
+export interface IUpdatePermiso {
+  [key: string]: any;
+}

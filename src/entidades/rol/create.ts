@@ -1,1 +1,3 @@
-export interface ICreateRol {}
+export interface ICreateRol {
+  [key: string]: any;
+}

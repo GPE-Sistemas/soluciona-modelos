@@ -1,7 +1,9 @@
-import { IRol } from "../rol";
+import { IRol } from "../rol/schema";
+import { IUsuario } from "../usuario";
 import { INivel } from "./niveles";
 
 export interface IRolUsuario {
+  idUsuario: string;
   nivel?: INivel;
   idMunicipio?: string;
   idProductor?: string;
@@ -9,6 +11,7 @@ export interface IRolUsuario {
   idLote?: string;
   idRol?: string;
   // Populate
+  usuario?: IUsuario;
   municipio?: any; // IMunicipio;
   productor?: any; // IProductor;
   establecimiento?: any; // IEstablecimiento;

@@ -1,5 +1,4 @@
 import { IDatosPersonales } from "./datosPersonales";
-import { IRolUsuario } from "./rolUsuario";
 
 export interface IUsuario {
   _id?: string;
@@ -9,5 +8,4 @@ export interface IUsuario {
   hash?: string;
   datosPersonales?: IDatosPersonales;
   superadmin?: boolean;
-  roles?: IRolUsuario[];
 }

@@ -1,5 +1,4 @@
 import { IDatosPersonales } from "./datosPersonales";
-import { IRolUsuario } from "./rolUsuario";
 
 export interface IUpdateUsuario {
   activo?: boolean;
@@ -7,5 +6,4 @@ export interface IUpdateUsuario {
   password?: string;
   hash?: string;
   datosPersonales?: IDatosPersonales;
-  roles?: IRolUsuario[];
 }

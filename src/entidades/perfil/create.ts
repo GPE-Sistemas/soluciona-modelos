@@ -1,1 +1,3 @@
-export interface ICreatePerfil {}
+export interface ICreatePerfil {
+  [key: string]: any;
+}
