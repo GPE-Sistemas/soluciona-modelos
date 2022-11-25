@@ -6,6 +6,7 @@ export interface IUpdateUsuario {
   fechaCreacion?: string;
   fechaVerificacion?: string;
   username?: string;
+  email?: string;
   password?: string;
   hash?: string;
   datosPersonales?: IDatosPersonales;
