@@ -1,1 +1,5 @@
-export type INivel = "Municipio" | "Productor" | "Establecimiento" | "Lote";
+export type INivel =
+  | "Municipio"
+  | "Productor"
+  | "Establecimiento"
+  | "Aplicador";
