@@ -9,13 +9,13 @@ export interface IRolUsuario {
   idMunicipio?: string;
   idProductor?: string;
   idEstablecimiento?: string;
-  idLote?: string;
+  idAplicador?: string;
   idRol?: string;
   // Populate
   usuario?: IUsuario;
   municipio?: any; // IMunicipio;
   productor?: any; // IProductor;
   establecimiento?: any; // IEstablecimiento;
-  lote?: any; // ILote;
+  aplicador?: any; // IAplicador;
   rol?: IRol;
 }
