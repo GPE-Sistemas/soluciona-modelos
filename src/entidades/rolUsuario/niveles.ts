@@ -3,3 +3,10 @@ export type INivel =
   | "Productor"
   | "Establecimiento"
   | "Aplicador";
+
+export const niveles: INivel[] = [
+  "Municipio",
+  "Productor",
+  "Establecimiento",
+  "Aplicador",
+];
