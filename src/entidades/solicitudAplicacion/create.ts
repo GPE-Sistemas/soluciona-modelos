@@ -1,3 +1,3 @@
-export interface ICreateSolicitudAplicacion {
+export interface ICreateActaAplicacion {
   [key: string]: any;
 }
