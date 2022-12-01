@@ -1,21 +1,21 @@
 export type CaslSubject =
   | "all"
-  | "Usuario"
-  | "Perfil"
-  | "Rol"
-  | "Permiso"
-  | "Rol de Usuario"
-  | "Municipio"
+  | "Acta de Aplicacion"
+  | "Empresa Aplicadora"
   | "Empresa Productora"
   | "Establecimiento"
   | "Lote"
-  | "Empresa Aplicadora"
-  | "Operario Aplicador"
   | "Maquinaria"
-  | "Solicitud de Aplicacion"
+  | "Municipio"
+  | "Operario Aplicador"
+  | "Perfil"
+  | "Permiso"
+  | "Respuesta a Acta de Aplicacion"
   | "Respuesta a Solicitud de Aplicacion"
-  | "Acta de Aplicacion"
-  | "Respuesta a Acta de Aplicacion";
+  | "Rol"
+  | "Rol de Usuario"
+  | "Solicitud de Aplicacion"
+  | "Usuario";
 
 export const caslSubjects: CaslSubject[] = [
   "all",
