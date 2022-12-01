@@ -5,3 +5,5 @@ export * from "./listado";
 export * from "./queryParams";
 export * from "./socket-message";
 export * from "./ubicacion";
+export * from "./casl-acciones";
+export * from "./casl-entidades";

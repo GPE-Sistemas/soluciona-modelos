@@ -1,8 +1,9 @@
 import { ICoordenadas } from "./coordenadas";
 
+export type IPoligono = ICoordenadas[];
+
 export interface IUbicacion {
-  poligono: ICoordenadas[];
+  poligono: IPoligono;
   centro?: ICoordenadas;
-  nombre?: string;
   superficie?: number;
 }
