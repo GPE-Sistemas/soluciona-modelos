@@ -2,6 +2,7 @@ export * from "./actaAplicacion";
 export * from "./empresaAplicadora";
 export * from "./empresaProductora";
 export * from "./establecimiento";
+export * from "./lote";
 export * from "./maquinaria";
 export * from "./municipio";
 export * from "./operarioAplicador";
