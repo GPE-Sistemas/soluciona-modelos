@@ -1,6 +1,6 @@
 import { IRol } from "../rol/schema";
 import { IUsuario } from "../usuario";
-import { INivel } from "./niveles";
+import { INivel } from "../../compartidos/niveles";
 
 export interface IRolUsuario {
   _id?: string;

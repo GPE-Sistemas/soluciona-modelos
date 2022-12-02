@@ -1,4 +1,4 @@
 export * from "./schema";
 export * from "./create";
 export * from "./update";
-export * from "./niveles";
+export * from "../../compartidos/niveles";
