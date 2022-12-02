@@ -1,21 +1,25 @@
 import { IRol } from "../rol/schema";
 import { IUsuario } from "../usuario";
 import { INivel } from "../../compartidos/niveles";
+import { IMunicipio } from "../municipio";
+import { IEmpresaProductora } from "../empresaProductora";
+import { IEstablecimiento } from "../establecimiento";
+import { IEmpresaAplicadora } from "../empresaAplicadora";
 
 export interface IRolUsuario {
   _id?: string;
   email?: string;
   nivel?: INivel;
   idMunicipio?: string;
-  idProductor?: string;
+  idEmpresaProductora?: string;
   idEstablecimiento?: string;
-  idAplicador?: string;
+  idEmpresaAplicadora?: string;
   idRol?: string;
   // Populate
   usuario?: IUsuario;
-  municipio?: any; // IMunicipio;
-  productor?: any; // IProductor;
-  establecimiento?: any; // IEstablecimiento;
-  aplicador?: any; // IAplicador;
+  municipio?: IMunicipio;
+  empresaProductora?: IEmpresaProductora;
+  establecimiento?: IEstablecimiento;
+  empresaAplicadora?: IEmpresaAplicadora;
   rol?: IRol;
 }
