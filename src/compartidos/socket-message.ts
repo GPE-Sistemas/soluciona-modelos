@@ -1,6 +1,10 @@
 export interface ISocketMessage {
   /**
-   * Las entidades modificadas (clientes, usuarios, etc)
+   * Las entidad modificadas (clientes, usuarios, etc)
+   */
+  path: string;
+  /**
+   * Otras entidades modificadas (no se devuelve el body)
    */
   paths?: string[];
   /**
