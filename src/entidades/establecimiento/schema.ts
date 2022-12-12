@@ -7,6 +7,7 @@ export interface IEstablecimiento {
   nombre?: string;
   idEmpresaProductora?: string;
   idMunicipio?: string;
+  aprobado?: boolean;
   partidaInmobiliaria?: string;
   propio?: boolean;
   ubicacion: IUbicacion;
