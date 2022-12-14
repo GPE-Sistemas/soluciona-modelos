@@ -1,3 +1,9 @@
+import { CaslAction, CaslSubject } from "../../compartidos";
+
 export interface IUpdatePermiso {
-  [key: string]: any;
+  nombre?: string;
+  accion?: CaslAction;
+  entidad?: CaslSubject;
+  campos?: string[];
+  condiciones?: object;
 }

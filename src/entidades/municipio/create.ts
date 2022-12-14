@@ -1,3 +1,5 @@
 export interface ICreateMunicipio {
-  [key: string]: any;
+  nombre?: string;
+  emailResponsable?: string;
+  idsRoles?: string[];
 }

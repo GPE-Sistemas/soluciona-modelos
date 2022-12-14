@@ -1,3 +1,4 @@
 export interface ICreatePerfil {
-  [key: string]: any;
+  nombre?: string;
+  idsPermisos?: string[];
 }

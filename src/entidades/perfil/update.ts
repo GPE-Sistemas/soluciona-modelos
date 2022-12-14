@@ -1,3 +1,4 @@
 export interface IUpdatePerfil {
-  [key: string]: any;
+  nombre?: string;
+  idsPermisos?: string[];
 }

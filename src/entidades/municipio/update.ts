@@ -1,3 +1,5 @@
 export interface IUpdateMunicipio {
-  [key: string]: any;
+  nombre?: string;
+  emailResponsable?: string;
+  idsRoles?: string[];
 }

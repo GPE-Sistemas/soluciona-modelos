@@ -1,3 +1,10 @@
+import { IUbicacion } from "../../compartidos";
+
 export interface ICreateEstablecimiento {
-  [key: string]: any;
+  nombre?: string;
+  idEmpresaProductora?: string;
+  idMunicipio?: string;
+  aprobado?: boolean;
+  propio?: boolean;
+  ubicacion?: IUbicacion[];
 }

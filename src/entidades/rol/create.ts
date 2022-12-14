@@ -1,3 +1,8 @@
+import { INivel } from "../rolUsuario";
+
 export interface ICreateRol {
-  [key: string]: any;
+  nombre?: string;
+  variante?: string;
+  nivel?: INivel;
+  idsPerfiles?: string[];
 }

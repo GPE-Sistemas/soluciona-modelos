@@ -4,9 +4,10 @@ export interface IEmpresaProductora {
   _id?: string;
   nombre?: string;
   cuil?: string;
-  idMunicipio?: string;
-  aprobada?: boolean;
+  idsMunicipiosSolicitados?: string[];
+  idsMunicipiosAprobados?: string[];
   emailResponsable?: string;
   // Populate
-  municipio?: IMunicipio;
+  municipiosSolicitados?: IMunicipio[];
+  municipiosAprobados?: IMunicipio[];
 }

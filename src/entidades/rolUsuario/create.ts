@@ -1,3 +1,11 @@
+import { INivel } from "../../compartidos/niveles";
+
 export interface ICreateRolUsuario {
-  [key: string]: any;
+  email?: string;
+  nivel?: INivel;
+  idMunicipio?: string;
+  idEmpresaProductora?: string;
+  idEstablecimiento?: string;
+  idEmpresaAplicadora?: string;
+  idRol?: string;
 }

@@ -8,9 +8,8 @@ export interface IEstablecimiento {
   idEmpresaProductora?: string;
   idMunicipio?: string;
   aprobado?: boolean;
-  partidaInmobiliaria?: string;
   propio?: boolean;
-  ubicacion: IUbicacion;
+  ubicacion?: IUbicacion[];
   // Populate
   empresaProductora?: IEmpresaProductora;
   municipio?: IMunicipio;
