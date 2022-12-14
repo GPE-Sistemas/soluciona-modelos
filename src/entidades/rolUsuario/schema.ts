@@ -5,6 +5,7 @@ import { IMunicipio } from "../municipio";
 import { IEmpresaProductora } from "../empresaProductora";
 import { IEstablecimiento } from "../establecimiento";
 import { IEmpresaAplicadora } from "../empresaAplicadora";
+import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 
 export interface IRolUsuario {
   _id?: string;
@@ -14,6 +15,7 @@ export interface IRolUsuario {
   idEmpresaProductora?: string;
   idEstablecimiento?: string;
   idEmpresaAplicadora?: string;
+  idIngenieroAgronomo?: string;
   idRol?: string;
   // Populate
   usuario?: IUsuario;
@@ -21,5 +23,6 @@ export interface IRolUsuario {
   empresaProductora?: IEmpresaProductora;
   establecimiento?: IEstablecimiento;
   empresaAplicadora?: IEmpresaAplicadora;
+  ingenieroAgronomo?: IIngenieroAgronomo;
   rol?: IRol;
 }
