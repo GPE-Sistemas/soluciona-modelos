@@ -7,5 +7,6 @@ export interface ICreateRolUsuario {
   idEmpresaProductora?: string;
   idEstablecimiento?: string;
   idEmpresaAplicadora?: string;
+  idIngenieroAgronomo?: string;
   idRol?: string;
 }
