@@ -4,6 +4,7 @@ export type CaslSubject =
   | "Empresa Aplicadora"
   | "Empresa Productora"
   | "Establecimiento"
+  | "Ingeniero Agrónomo"
   | "Lote"
   | "Maquinaria"
   | "Municipio"
@@ -23,6 +24,7 @@ export const caslSubjects: CaslSubject[] = [
   "Empresa Aplicadora",
   "Empresa Productora",
   "Establecimiento",
+  "Ingeniero Agrónomo",
   "Lote",
   "Maquinaria",
   "Municipio",
