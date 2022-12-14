@@ -4,7 +4,8 @@ export type IPoligono = ICoordenadas[];
 
 export interface IUbicacion {
   partidaInmobiliaria?: string;
-  poligono: IPoligono;
+  propio?: boolean;
+  poligono?: IPoligono;
   centro?: ICoordenadas;
   superficie?: number;
 }
