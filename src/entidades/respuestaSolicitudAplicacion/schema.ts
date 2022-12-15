@@ -5,6 +5,7 @@ export interface IRespuestaSolicitudAplicacion {
   idEstablecimiento?: string;
   idLote?: string;
   idEmpresaAplicadora?: string;
+  idIngenieroAgronomo?: string;
   idSolicitudAplicacion?: string;
   //
   fecha?: string;
