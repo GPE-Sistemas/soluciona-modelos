@@ -1,3 +1,9 @@
+import { IUbicacion } from "../../compartidos";
+
 export interface IUpdateLote {
-  [key: string]: any;
+  nombre?: string;
+  idEmpresaProductora?: string;
+  idEstablecimiento?: string;
+  idMunicipio?: string;
+  ubicacion?: IUbicacion;
 }
