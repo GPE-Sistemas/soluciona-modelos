@@ -4,6 +4,7 @@ import { IEstablecimiento } from "../establecimiento";
 import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 import { ILote } from "../lote";
 import { IMunicipio } from "../municipio";
+import { IRecetaAgronomica } from "./recetaAgronomica";
 
 export interface ISolicitudAplicacion {
   _id?: string;
@@ -19,7 +20,7 @@ export interface ISolicitudAplicacion {
   fechaCreacion?: string;
   emailCreacion?: string;
   fechaTentativaAplicacion?: string;
-  recetaAgronomica?: any; // IRecetaAgronomica
+  recetaAgronomica?: IRecetaAgronomica[];
 
   // Info de aprobacion
   // Se inicializa en true dependiendo del rol del usuario

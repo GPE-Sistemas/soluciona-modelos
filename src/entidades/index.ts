@@ -9,6 +9,7 @@ export * from "./municipio";
 export * from "./operarioAplicador";
 export * from "./perfil";
 export * from "./permiso";
+export * from "./producto";
 export * from "./rol";
 export * from "./rolUsuario";
 export * from "./solicitudAplicacion";
