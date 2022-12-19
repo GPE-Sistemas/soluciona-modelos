@@ -5,6 +5,7 @@ import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 import { ILote } from "../lote";
 import { IMunicipio } from "../municipio";
 import { INivel } from "../rolUsuario";
+import { ISolicitudAplicacion } from "../solicitudAplicacion";
 import { ICondicionesMeteorologicas } from "./condicionesMeteorologicas";
 import { ICondicionesOperativas } from "./condicionesOperativas";
 
@@ -52,6 +53,7 @@ export interface IActaAplicacion {
   emailRespuestaMunicipio?: string;
 
   // Populate
+  solicitudAplicacion?: ISolicitudAplicacion;
   municipio?: IMunicipio;
   empresaProductora?: IEmpresaProductora;
   establecimiento?: IEstablecimiento;
