@@ -1,7 +1,7 @@
 import { INivel } from "../rolUsuario";
 import { IRecetaAgronomica } from "./recetaAgronomica";
 
-export interface ICreateActaAplicacion {
+export interface ICreateSolicitudAplicacion {
   idMunicipio?: string;
   idEmpresaProductora?: string;
   idEstablecimiento?: string;
