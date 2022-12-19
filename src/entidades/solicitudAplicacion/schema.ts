@@ -20,7 +20,7 @@ export interface ISolicitudAplicacion {
   fechaCreacion?: string;
   emailCreacion?: string;
   fechaTentativaAplicacion?: string;
-  recetaAgronomica?: IRecetaAgronomica[];
+  recetaAgronomica?: IRecetaAgronomica;
 
   // Info de aprobacion
   // Se inicializa en true dependiendo del rol del usuario
