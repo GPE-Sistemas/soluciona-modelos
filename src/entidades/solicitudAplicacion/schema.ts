@@ -4,6 +4,7 @@ import { IEstablecimiento } from "../establecimiento";
 import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 import { ILote } from "../lote";
 import { IMunicipio } from "../municipio";
+import { INivel } from "../rolUsuario";
 import { IRecetaAgronomica } from "./recetaAgronomica";
 
 export interface ISolicitudAplicacion {
@@ -19,6 +20,7 @@ export interface ISolicitudAplicacion {
   // Info de carga
   fechaCreacion?: string;
   emailCreacion?: string;
+  creadoPorNivel?: INivel;
   fechaTentativaAplicacion?: string;
   recetaAgronomica?: IRecetaAgronomica;
 
