@@ -4,6 +4,7 @@ import { IEstablecimiento } from "../establecimiento";
 import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 import { ILote } from "../lote";
 import { IMunicipio } from "../municipio";
+import { INivel } from "../rolUsuario";
 import { ICondicionesMeteorologicas } from "./condicionesMeteorologicas";
 import { ICondicionesOperativas } from "./condicionesOperativas";
 
@@ -21,17 +22,34 @@ export interface IActaAplicacion {
   idSolicitudAplicacion?: string;
   fechaCreacion?: string;
   emailCreacion?: string;
+  creadoPorNivel?: INivel;
   fechaAplicacion?: string;
   horaInicio?: string;
   horaFin?: string;
   condicionesMeteorologicas?: ICondicionesMeteorologicas;
   condicionesOperativas?: ICondicionesOperativas;
 
+  // Info de aprobacion
+  aprobadaPorEmpresaProductora?: boolean;
+  fechaRespuestaProductora?: string;
+  motivoRechazoProductora?: string;
+  emailRespuestaProductora?: string;
+
+  aprobadaPorEmpresaAplicadora?: boolean;
+  fechaRespuestaAplicadora?: string;
+  motivoRechazoAplicadora?: string;
+  emailRespuestaAplicadora?: string;
+
+  aprobadaPorIngenieroAgronomo?: boolean;
+  fechaRespuestaIngeniero?: string;
+  motivoRechazoIngeniero?: string;
+  emailRespuestaIngeniero?: string;
+
   // Info de respuesta del municipio
   aprobadaPorMunicipio?: boolean;
-  fechaRespuesta?: string;
-  motivoRechazo?: string;
-  emailRespuesta?: string;
+  fechaRespuestaMunicipio?: string;
+  motivoRechazoMunicipio?: string;
+  emailRespuestaMunicipio?: string;
 
   // Populate
   municipio?: IMunicipio;
