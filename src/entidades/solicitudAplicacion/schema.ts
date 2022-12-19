@@ -31,14 +31,25 @@ export interface ISolicitudAplicacion {
   // luego la empresa aplicadora y el ingeniero agronomo deben aprobarla,
   // para que el municipio pueda verla y aprobarla
   aprobadaPorEmpresaProductora?: boolean;
+  fechaRespuestaProductora?: string;
+  motivoRechazoProductora?: string;
+  emailRespuestaProductora?: string;
+
   aprobadaPorEmpresaAplicadora?: boolean;
+  fechaRespuestaAplicadora?: string;
+  motivoRechazoAplicadora?: string;
+  emailRespuestaAplicadora?: string;
+
   aprobadaPorIngenieroAgronomo?: boolean;
+  fechaRespuestaIngeniero?: string;
+  motivoRechazoIngeniero?: string;
+  emailRespuestaIngeniero?: string;
 
   // Info de respuesta del municipio
   aprobadaPorMunicipio?: boolean;
-  fechaRespuesta?: string;
-  motivoRechazo?: string;
-  emailRespuesta?: string;
+  fechaRespuestaMunicipio?: string;
+  motivoRechazoMunicipio?: string;
+  emailRespuestaMunicipio?: string;
 
   // Populate
   municipio?: IMunicipio;

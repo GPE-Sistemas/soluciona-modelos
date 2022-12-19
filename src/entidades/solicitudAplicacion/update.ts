@@ -18,12 +18,23 @@ export interface IUpdateSolicitudAplicacion {
 
   // Info de aprobacion
   aprobadaPorEmpresaProductora?: boolean;
+  fechaRespuestaProductora?: string;
+  motivoRechazoProductora?: string;
+  emailRespuestaProductora?: string;
+
   aprobadaPorEmpresaAplicadora?: boolean;
+  fechaRespuestaAplicadora?: string;
+  motivoRechazoAplicadora?: string;
+  emailRespuestaAplicadora?: string;
+
   aprobadaPorIngenieroAgronomo?: boolean;
+  fechaRespuestaIngeniero?: string;
+  motivoRechazoIngeniero?: string;
+  emailRespuestaIngeniero?: string;
 
   // Info de respuesta del municipio
   aprobadaPorMunicipio?: boolean;
-  fechaRespuesta?: string;
-  motivoRechazo?: string;
-  emailRespuesta?: string;
+  fechaRespuestaMunicipio?: string;
+  motivoRechazoMunicipio?: string;
+  emailRespuestaMunicipio?: string;
 }
