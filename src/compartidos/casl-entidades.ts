@@ -11,6 +11,7 @@ export type CaslSubject =
   | "Operario Aplicador"
   | "Perfil"
   | "Permiso"
+  | "Producto"
   | "Rol"
   | "Rol de Usuario"
   | "Solicitud de Aplicacion"
@@ -29,6 +30,7 @@ export const caslSubjects: CaslSubject[] = [
   "Operario Aplicador",
   "Perfil",
   "Permiso",
+  "Producto",
   "Rol",
   "Rol de Usuario",
   "Solicitud de Aplicacion",
