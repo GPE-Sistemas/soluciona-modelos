@@ -2,7 +2,7 @@ import { ICoordenadas, IPoligono } from "../../compartidos";
 
 export interface ICreateParcela {
   idMunicipio?: string;
-  clasesToxicologicasPermitidas?: string[];
+  partidaInmobiliaria?: string;
   poligono?: IPoligono;
   centro?: ICoordenadas;
   superficie?: number;
