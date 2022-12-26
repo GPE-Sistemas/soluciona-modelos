@@ -19,6 +19,7 @@ export interface ICreateActaAplicacion {
   horaInicio?: string;
   horaFin?: string;
   condicionesMeteorologicas?: ICondicionesMeteorologicas;
+  condicionesMeteorologicasEstacion?: ICondicionesMeteorologicas;
   condicionesOperativas?: ICondicionesOperativas;
 
   // para que el municipio pueda verla y aprobarla

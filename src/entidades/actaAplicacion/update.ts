@@ -19,6 +19,7 @@ export interface IUpdateActaAplicacion {
   horaInicio?: string;
   horaFin?: string;
   condicionesMeteorologicas?: ICondicionesMeteorologicas;
+  condicionesMeteorologicasEstacion?: ICondicionesMeteorologicas;
   condicionesOperativas?: ICondicionesOperativas;
 
   // Info de aprobacion
