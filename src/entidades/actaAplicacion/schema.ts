@@ -8,6 +8,7 @@ import { INivel } from "../rolUsuario";
 import { ISolicitudAplicacion } from "../solicitudAplicacion";
 import { ICondicionesMeteorologicas } from "./condicionesMeteorologicas";
 import { ICondicionesOperativas } from "./condicionesOperativas";
+import { IEstacionMeteorologica } from "./estacionMeteorologica";
 
 export interface IActaAplicacion {
   _id?: string;
@@ -28,6 +29,7 @@ export interface IActaAplicacion {
   horaInicio?: string;
   horaFin?: string;
   condicionesMeteorologicas?: ICondicionesMeteorologicas;
+  estacionMeteorologica?: IEstacionMeteorologica;
   condicionesMeteorologicasEstacion?: ICondicionesMeteorologicas;
   condicionesOperativas?: ICondicionesOperativas;
 
