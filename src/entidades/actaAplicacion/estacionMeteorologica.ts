@@ -3,4 +3,5 @@ export interface IEstacionMeteorologica {
   nombre?: string;
   modelo?: string;
   ubicacion?: string;
+  distancia?: number;
 }
