@@ -1,5 +1,5 @@
 export interface ICondicionesMeteorologicas {
-  fecha: string;
+  fecha?: string;
   // Datos Reportados
   temperatura?: number;
   humedad?: number;
