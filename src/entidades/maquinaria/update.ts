@@ -1,7 +1,7 @@
 import { ICoordenadas } from "../../compartidos";
 
 export interface IUpdateMaquinaria {
-  idEmpresaProductora?: string;
+  idEmpresaAplicadora?: string;
   tipo?: string;
   marca?: string;
   modelo?: string;

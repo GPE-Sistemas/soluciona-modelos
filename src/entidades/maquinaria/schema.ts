@@ -1,8 +1,9 @@
 import { ICoordenadas } from "../../compartidos";
+import { IEmpresaAplicadora } from "../empresaAplicadora";
 
 export interface IMaquinaria {
   _id?: string;
-  idEmpresaProductora?: string;
+  idEmpresaAplicadora?: string;
   tipo?: string;
   marca?: string;
   modelo?: string;
@@ -10,4 +11,7 @@ export interface IMaquinaria {
   fotosEmpresa?: string[];
   fotosMunicipio?: string[];
   lugarGuardado?: ICoordenadas;
+
+  // Populate
+  empresaAplicadora?: IEmpresaAplicadora;
 }
