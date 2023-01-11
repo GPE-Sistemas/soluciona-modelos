@@ -1,6 +1,6 @@
 import { IEmpresaAplicadora } from "../empresaAplicadora";
 
-export interface IOperarioAplicador {
+export interface IOperadorMaquinaria {
   _id?: string;
   idEmpresaAplicadora?: string;
   email?: string;

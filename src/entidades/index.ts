@@ -6,7 +6,7 @@ export * from "./ingenieroAgronomo";
 export * from "./lote";
 export * from "./maquinaria";
 export * from "./municipio";
-export * from "./operarioAplicador";
+export * from "./operadorMaquinaria";
 export * from "./parcela";
 export * from "./perfil";
 export * from "./permiso";
