@@ -8,7 +8,7 @@ export type CaslSubject =
   | "Lote"
   | "Maquinaria"
   | "Municipio"
-  | "Operario Aplicador"
+  | "Operador Maquinaria"
   | "Parcela"
   | "Perfil"
   | "Permiso"
@@ -29,7 +29,7 @@ export const caslSubjects: CaslSubject[] = [
   "Lote",
   "Maquinaria",
   "Municipio",
-  "Operario Aplicador",
+  "Operador Maquinaria",
   "Parcela",
   "Perfil",
   "Permiso",
