@@ -3,7 +3,9 @@ import { IEmpresaProductora } from "../empresaProductora";
 import { IEstablecimiento } from "../establecimiento";
 import { IIngenieroAgronomo } from "../ingenieroAgronomo";
 import { ILote } from "../lote";
+import { IMaquinaria } from "../maquinaria";
 import { IMunicipio } from "../municipio";
+import { IOperadorMaquinaria } from "../operadorMaquinaria";
 import { INivel } from "../rolUsuario";
 import { ISolicitudAplicacion } from "../solicitudAplicacion";
 import { ICondicionesMeteorologicas } from "./condicionesMeteorologicas";
@@ -22,6 +24,9 @@ export interface IActaAplicacion {
 
   // Info de carga
   idSolicitudAplicacion?: string;
+  idMaquinaria?: string;
+  idOperadorMaquinaria?: string;
+
   fechaCreacion?: string;
   emailCreacion?: string;
   creadoPorNivel?: INivel;
@@ -56,11 +61,14 @@ export interface IActaAplicacion {
   emailRespuestaMunicipio?: string;
 
   // Populate
-  solicitudAplicacion?: ISolicitudAplicacion;
   municipio?: IMunicipio;
   empresaProductora?: IEmpresaProductora;
   establecimiento?: IEstablecimiento;
   lote?: ILote;
   empresaAplicadora?: IEmpresaAplicadora;
   ingenieroAgronomo?: IIngenieroAgronomo;
+
+  solicitudAplicacion?: ISolicitudAplicacion;
+  maquinaria?: IMaquinaria;
+  operadorMaquinaria?: IOperadorMaquinaria;
 }

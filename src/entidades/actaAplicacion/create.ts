@@ -13,6 +13,9 @@ export interface ICreateActaAplicacion {
 
   // Info de carga
   idSolicitudAplicacion?: string;
+  idMaquinaria?: string;
+  idOperadorMaquinaria?: string;
+
   fechaCreacion?: string;
   emailCreacion?: string;
   creadoPorNivel?: INivel;
